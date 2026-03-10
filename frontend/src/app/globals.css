@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nda-document h1 {
+  @apply text-2xl font-bold text-center mb-4;
+}
+
+.nda-document h2 {
+  @apply text-xl font-semibold mt-6 mb-2;
+}
+
+.nda-document h3 {
+  @apply text-base font-semibold mt-4 mb-1;
+}
+
+.nda-document p {
+  @apply text-sm leading-relaxed mb-2;
+}
+
+.nda-document table {
+  @apply w-full border-collapse text-sm my-4;
+}
+
+.nda-document th,
+.nda-document td {
+  @apply border border-gray-300 px-3 py-2 text-left;
+}
+
+.nda-document th {
+  @apply bg-gray-50 font-semibold;
+}
+
+.nda-document hr {
+  @apply my-8 border-t-2 border-gray-800;
+}
+
+.nda-document em {
+  @apply text-gray-500;
+}
+
+.nda-document .attribution {
+  @apply text-xs text-gray-400 mt-6;
+}
+
+.nda-document a {
+  @apply text-blue-600 underline;
+}
